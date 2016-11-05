@@ -17,8 +17,7 @@ library(dplyr)
 run_analysis <- function() {
 
         # load the data - according to the project specification the dataset
-        # files should all be in the working directory
-        # the intertial signals files are not required.
+        # files should all be in the working directory in their subfolders.
         subject_train <- read.table("UCI_HAR_Dataset/train/subject_train.txt")
         y_train <- read.table("UCI_HAR_Dataset/train/y_train.txt")
         X_train <- read.table("UCI_HAR_Dataset/train/X_train.txt")
