@@ -100,7 +100,7 @@ run_analysis <- function() {
         
         # write out this modified data as a table to a file within datadir
         # called "summary.txt"
-        write.table(data, file = "summary.txt")
+        write.table(data, file = "summary.txt", row.name=FALSE)
         
         # This data can be read back into R using the following command
         # data <- read.table(file, header = TRUE)
