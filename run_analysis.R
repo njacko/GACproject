@@ -14,9 +14,6 @@ library(dplyr)
 
 
 # takes the top level of the data directory as an argument
-# for example, if you have unzipped the zipfile into your R working directory
-# without changing any names then you could run, for example:
-#       run_analysis("./UCI_HAR_Dataset")
 run_analysis <- function(datadir="./UCI_HAR_Dataset") {
 
         # load the data from within datadir
