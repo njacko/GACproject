@@ -24,6 +24,8 @@ Following the project requirement of only including mean and standard deviation 
 
 The resulting data table therefore contains the average of each of the remaining 66 X variables with respect to each activity undertaken by each subject.  There are 30 participants undertaking 6 different activities and therefore 30 x 6 = 180 rows and 68 columns.
 
+Refer to CodeBook.md for further information.
+
 References:
 
 The requirements of the project were made much clearer thanks to David Hood's very helpful blog which can be accessed here:
@@ -31,3 +33,12 @@ https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assign
 
 Hadley Wickham's Tidy Data paper was invaluable
 http://vita.had.co.nz/papers/tidy-data.pdf
+
+
+Raw dataset Reference:
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
