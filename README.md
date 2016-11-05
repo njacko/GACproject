@@ -24,6 +24,8 @@ Following the project requirement of only including mean and standard deviation 
 
 The resulting data table therefore contains the average of each of the remaining 66 X variables with respect to each activity undertaken by each subject.  There are 30 participants undertaking 6 different activities and therefore 30 x 6 = 180 rows and 68 columns.
 
+Refer to CodeBook.md for further information.
+
 References:
 
 The requirements of the project were made much clearer thanks to David Hood's very helpful blog which can be accessed here:
