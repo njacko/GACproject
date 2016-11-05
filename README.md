@@ -27,3 +27,5 @@ References:
 The requirements of the project were made much clearer thanks to David Hood's very helpful blog which can be accessed here:
 https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
 
+Hadley Wickham's Tidy Data paper was invaluable
+http://vita.had.co.nz/papers/tidy-data.pdf
