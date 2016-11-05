@@ -10,7 +10,7 @@ Important:
 3. As a result of running the script "run_analysis.R" a file called "summary.txt" containing the resulting data table will be created in the working directory.  This file could be read directly into R using the following, for example:  
 data <- read.table("summary.txt", header = TRUE)
 
-4. If you wish to run the script you could run it as follows: 
+4. To run the script you actually need to run the function within it, for example: 
 d <- run_analysis()
 
 5. Please refer to CodeBook.md within this repository for specific information regarding the data transformation and manipulation.
