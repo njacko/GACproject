@@ -18,12 +18,12 @@ run_analysis <- function() {
 
         # load the data - according to the project specification the dataset
         # files should all be in the working directory in their subfolders.
-        subject_train <- read.table("UCI_HAR_Dataset/train/subject_train.txt")
-        y_train <- read.table("UCI_HAR_Dataset/train/y_train.txt")
-        X_train <- read.table("UCI_HAR_Dataset/train/X_train.txt")
-        subject_test <- read.table("UCI_HAR_Dataset/test/subject_test.txt")
-        y_test <- read.table("UCI_HAR_Dataset/test/y_test.txt")
-        X_test <- read.table("UCI_HAR_Dataset/test/X_test.txt")
+        subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
+        y_train <- read.table("UCI HAR Dataset/train/y_train.txt")
+        X_train <- read.table("UCI HAR Dataset/train/X_train.txt")
+        subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")
+        y_test <- read.table("UCI HAR Dataset/test/y_test.txt")
+        X_test <- read.table("UCI HAR Dataset/test/X_test.txt")
         
         # wrap these tables in dplyr tbl_df
         subject_train <- tbl_df(subject_train)
@@ -51,7 +51,7 @@ run_analysis <- function() {
         
         # load in the features names from file and rename the columns so that 
         # the X variables have their names from features.txt
-        features <- tbl_df(read.table("UCI_HAR_Dataset/features.txt", 
+        features <- tbl_df(read.table("UCI HAR Dataset/features.txt", 
                                       stringsAsFactors = FALSE))
         names(data) <- c("subject", "activity", features$V2)
         
@@ -77,7 +77,7 @@ run_analysis <- function() {
         
         # load the activity names file and convert the activity column values
         # from integers to names
-        activity_labels <- read.table("UCI_HAR_Dataset/activity_labels.txt")
+        activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
         
         # make a temporary column containing the activity labels matched with 
         # the activity number from the data frame.
