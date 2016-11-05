@@ -18,6 +18,7 @@ d <- run_analysis()
 6. Refer also to README.txt and features_info.txt within the raw data archive for information regarding the raw data.
 
 Assumptions and notes for markers:
+
 I have reduced the data to the subject, the activity, and 66 X variables.
 Following the project requirement of only including mean and standard deviation variables I first reduced to any variable containing "mean" or "std" in the name and then further eliminated the "meanFreq" columns and the means calculated from the angle, such as tBodyAccMean.  The X variable names have not been modified, apart from tidying up (removing brackets, etc) as I felt unqualified to give better simplified names.  The names are abbreviated which perhaps goes against the principles of Tidy data but given the quantity of variables and the provision of the "features_info.txt" file within the raw data archive I decided against expanding these abbreviations.  For example, 'tbodyacc.mean.X' could be expanded to something like 'mean of time domain body acceleration in X direction". Without further information regarding what the data would be used for I feel this is a fair assumption and will allow a demonstration of cleaning and tidying data.
 
